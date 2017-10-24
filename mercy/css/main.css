@@ -1,0 +1,85 @@
+body{
+    padding-top: 50px;
+}
+
+#headerwrapper{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 400px;
+    background-image: url(../img/krisbee.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#partial-headerwrapper{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 250px;
+    background-image: url(../img/krisbee.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.thumbnail{
+    width: auto;
+    height: 200px;
+}
+
+#footer{
+    margin-top: 50px;
+}
+
+fotorama_wrap{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.table-auto{
+    width:auto;
+    margin: 0 auto;
+}
+
+#add-product-btn{
+    margin-top: -35px;
+}
+
+.saved-image{
+    text-align: center;
+}
+
+.saved-image img{
+    width: auto;
+    height: 150px;
+    
+}
+
+#login-form{
+    width: 50%;
+    height: 60%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+    margin: 7% auto;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.totals-table-header th{
+    text-align: center;
+}
+
+#cart_widget td, #recent_widget{
+    font-size: 12px;
+}
+
+input.price-range {
+    width: 55px;
+}
